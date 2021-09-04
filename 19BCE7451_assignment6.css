@@ -1,0 +1,57 @@
+*{
+    
+    padding: 0;
+    box-sizing: border-box;
+}
+.con{
+    display:grid;
+    height:100vh;
+    grid-template-rows: 0.25fr 2fr;
+
+}
+
+#c1{
+    margin-left:60px;
+    margin-right: 60px;
+    padding: 10px;
+    font-size: 20px;
+    font: bold;
+    margin-top: 10px;
+    background-color: rgb(10, 90, 10);
+    grid-column: span 2;
+}
+#c2{
+    border: 3px solid rgb(32, 149, 216);
+   margin-left: 100px;
+   margin-right: 100px;
+   margin-top: 20px;
+   margin-bottom: 60px;
+    grid-column: span 2;
+    padding: 20px;
+}
+#enter_text{
+    height: 30px;
+}
+#txt{
+    height:30px ;
+    width:60px ;
+}
+p{
+    font-weight: bold;
+}
+
+   
+li{
+    list-style: none;
+
+    border: 2px solid red;
+    font-size: 20px ;
+    padding:10px;
+    margin: 4px;
+    height: 50px;
+}
+#a{
+    background-color: red;
+    width: 20px;
+
+}
